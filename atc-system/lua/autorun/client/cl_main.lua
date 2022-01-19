@@ -18,7 +18,7 @@ net.Receive("HUDNotify", function (ply)
     ply:ChatPrint("[ATC] Eine Anfrage wurde eingereicht")
     ply:EmitSound("garrysmod/balloon_pop_cute.wav")
 end)
--- Unnötiger Kommentar hinzugefügt
+
 ply = LocalPlayer()
 
 //////////////////////////////////////////////////////////////////
